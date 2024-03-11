@@ -218,3 +218,18 @@ a{
   color: var(--orange-yellow-crayola);
 }
 
+.nsfw-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 21rem;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 450px) {
+  .nsfw-container {
+    margin-top: 17rem;
+  }
+  
+}
+
